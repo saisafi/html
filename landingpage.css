@@ -1,0 +1,94 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image: url("images/loggo.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding:5px;
+}
+ul li a:hover{
+    background-color:red;
+    color:black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color:white;
+    color:black;
+}
+.logo7 img{
+    position:absolute;
+    left:0;
+    top:0;
+         width: 100px; 
+         height: 100px; 
+         display: inline-block; 
+         text-indent: -9999px;
+}
+    
+}
+.center_text{
+    margin-top: 250px;
+    margin-left: 530px;
+}
+
+    h1 {
+        color: #333; /* Text color */
+        font-family: cursive;/* Font family */
+        font-size: 2em; /* Font size */
+        font-weight: bold; /* Font weight */
+        text-align: center; /* Text alignment */
+        margin-bottom: 20px; /* Bottom margin */
+    }
+    h3 {
+        color: #333; /* Text color */
+        font-family: Georgia, serif; /* Font family */
+        font-size: 2em; /* Font size */
+        font-weight: bold; /* Font weight */
+        text-align: center; /* Text alignment */
+        margin-bottom: 20px; /* Bottom margin */
+    }
+
+.bt1{
+    border:1px solid white;
+    color:black;
+    padding:5px;
+    text-decoration: none;
+}
+.bt2{
+    border:1px solid white;
+    color:whitesmoke;
+    padding:5px;
+    text-decoration: none;
+}
+#bt1:hover{
+    background-color:antiquewhite;
+    color:black;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color:whitesmoke;
+    color:black;
+    transition: 0.6s ease;
+}
