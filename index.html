@@ -3,49 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempearture Converter</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Saiman Pattanaik</h1>
-        <p>Web Developer</p>
-    </header>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <label for="celsius">celsius:</label>
+            <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+            <button onclick="convertToFar()">convert to Fahrenheit</button>
 
-    <section class="about-me">
-        <h2>About Me</h2>
-        <p>I am from Odisha.I am a developer. I can make any type of Web Design.</p>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>This is a sample project where I created a responsive website. The website includes modern design principles, CSS animations, and is optimized for various devices. Technologies used: HTML, CSS.</p>
+            <label for="fahrenheit">fahrenheit:</label>
+            <input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit">
+            <button onclick="convertToCel()">convert to Celsius</button>
         </div>
-    </section>
-
-    <footer>
-        <p>Contact:Saiman.pattanaik@gmail.com</p>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/saiman.pattanaik" target="_blank" rel="noopener noreferrer">
-            <img src="images/download.png" alt="Facebook Logo">
-        </a>
-        <a href="https://www.instagram.com/saiman.pattanai/" target="_blank" rel="noopener noreferrer">
-            <img src="images/logo.jpg" alt="Instagram Logo">
-        </a>
     </div>
-</footer>
-        </footer>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
